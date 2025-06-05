@@ -14,7 +14,7 @@
     <div id="root"></div>
     <script type="text/babel">
         const { useState, useEffect } = React;
-        const { MapPin, AlertTriangle, CheckCircle, TreePine, Eye, Zap, Info } = lucide;
+        const { MapPin, AlertTriangle, CheckCircle, TreePine, Eye, Zap, Info } = window.lucide;
 
         const ColoradoTransmissionDemo = () => {
           const [selectedPoint, setSelectedPoint] = useState(null);
